@@ -1,0 +1,49 @@
+body{
+    background: rgba(12, 106, 143, 0.89);
+    }*{
+        box-sizing:border-box;
+        -webkit-box-sizing:border-box;
+        -moz-box-sizing:border-box;  
+    }
+    
+    .forma{
+        width: 400px;
+        margin: auto ;
+        height: auto ;
+        background:rgb(121, 118, 118);
+        padding: 15px;
+    
+    }
+    
+    #valores{
+        width: 32%;
+        border-color: rgb(105, 104, 104);
+    }
+    
+    #igual{
+        width:100%;
+    }
+    
+    input[type = text]{
+        width: 100%;
+        padding: 10px;
+        font-size: 22px;
+        font-weight: bold;
+        margin-top: 20px;
+        border-radius: 5px;
+        border-color: rgb(105, 104, 104);
+    }
+    input[type = button]{
+        width: 89px;
+        padding: 15px;
+        font-size: 22px;
+        font-weight: bold;
+        background:rgba(92, 167, 167, 0.664);
+         border-color: rgb(105, 104, 104);
+    }
+    #del{
+        width: 100%;
+    }
+    
+    
+    

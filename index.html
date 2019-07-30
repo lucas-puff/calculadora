@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Olá vue</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+    <div id="app">  {{mensagem}}
+        <input type="text" v-model="1">
+        <input type="text" v-model="2">
+        
+        <button v-on:click="falar">=</button>
+    </div>
+
+    
+</body>
+
+<script>
+
+    var app = new Vue({
+        el: "#app",
+        data: {
+            mensagem: "Olá vue"
+        }, methods: {
+            falar: function() {
+                console.log(`${this.mensagem}! bem vindo`)
+            }
+        }
+    });
+
+
+    var f=document.getElementById("frm");
+         var n1=document.getElementById("n1").value;
+         var n2=document.getElementById("n2").value;
+         var soma = n1 + n2 ;
+         alert(soma);
+         function mostrarresultados() {
+
+}
+
+</script>
+</html>
